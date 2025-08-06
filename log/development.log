@@ -1,0 +1,201 @@
+Started GET "/" for ::1 at 2025-08-07 00:11:17 +0300
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY) /*application='LookbookDesignSystem'*/[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL) /*application='LookbookDesignSystem'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='LookbookDesignSystem'*/[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 200 OK in 33ms (Views: 5.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/lookbook" for ::1 at 2025-08-07 00:15:10 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='LookbookDesignSystem'*/[0m
+  
+ActionController::RoutingError (No route matches [GET] "/lookbook"):
+  
+Started GET "/favicon.ico" for ::1 at 2025-08-07 00:15:10 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/lookbook" for ::1 at 2025-08-07 00:15:36 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/lookbook"):
+  
+Started GET "/lookbook" for ::1 at 2025-08-07 00:15:40 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/lookbook"):
+  
+Started GET "/lookbook" for ::1 at 2025-08-07 00:21:52 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='LookbookDesignSystem'*/[0m
+Processing by Lookbook::ApplicationController#index as HTML
+  Rendering layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_blank_slate.html.erb (Duration: 497.2ms | Allocations: 6702)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application (Duration: 498.3ms | Allocations: 7399)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_user_styles.html.erb (Duration: 0.1ms | Allocations: 125)
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb (Duration: 17.5ms | Allocations: 15440)
+  Rendered layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb (Duration: 545.4ms | Allocations: 50532)
+Completed 200 OK in 573ms (Views: 562.8ms | ActiveRecord: 0.0ms | Allocations: 59278)
+
+
+Started GET "/lookbook-assets/css/lookbook.css?v=2.3.12" for ::1 at 2025-08-07 00:21:53 +0300
+Started GET "/lookbook-assets/css/themes/indigo.css?v=2.3.12" for ::1 at 2025-08-07 00:21:53 +0300
+Started GET "/lookbook-assets/js/index.js?v=2.3.12" for ::1 at 2025-08-07 00:21:53 +0300
+Started GET "/lookbook-assets/js/lookbook.js?v=2.3.12" for ::1 at 2025-08-07 00:21:53 +0300
+Started GET "/lookbook-assets/img/lucide-sprite.svg" for ::1 at 2025-08-07 00:21:53 +0300
+Started GET "/lookbook-assets/Inter-roman.var.b695afbe.woff2" for ::1 at 2025-08-07 00:21:53 +0300
+Started GET "/lookbook" for ::1 at 2025-08-07 00:25:37 +0300
+Processing by Lookbook::ApplicationController#index as HTML
+  Rendering layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_blank_slate.html.erb (Duration: 3.5ms | Allocations: 2576)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application (Duration: 3.5ms | Allocations: 2659)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_user_styles.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb (Duration: 21.4ms | Allocations: 6668)
+  Rendered layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb (Duration: 34.2ms | Allocations: 28799)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms | Allocations: 29063)
+
+
+Started GET "/lookbook-assets/css/lookbook.css?v=2.3.12" for ::1 at 2025-08-07 00:25:37 +0300
+Started GET "/lookbook-assets/css/themes/indigo.css?v=2.3.12" for ::1 at 2025-08-07 00:25:37 +0300
+Started GET "/lookbook-assets/js/index.js?v=2.3.12" for ::1 at 2025-08-07 00:25:37 +0300
+Started GET "/lookbook-assets/js/lookbook.js?v=2.3.12" for ::1 at 2025-08-07 00:25:37 +0300
+Started GET "/lookbook-assets/Inter-roman.var.b695afbe.woff2" for ::1 at 2025-08-07 00:25:37 +0300
+Started GET "/lookbook" for ::1 at 2025-08-07 00:25:37 +0300
+Processing by Lookbook::ApplicationController#index as HTML
+  Rendering layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_blank_slate.html.erb (Duration: 5.7ms | Allocations: 2574)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application (Duration: 6.0ms | Allocations: 2657)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_user_styles.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb (Duration: 0.6ms | Allocations: 324)
+  Rendered layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb (Duration: 20.4ms | Allocations: 22452)
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 22712)
+
+
+Started GET "/lookbook-assets/css/lookbook.css?v=2.3.12" for ::1 at 2025-08-07 00:25:37 +0300
+Started GET "/lookbook-assets/css/themes/indigo.css?v=2.3.12" for ::1 at 2025-08-07 00:25:37 +0300
+Started GET "/lookbook-assets/js/index.js?v=2.3.12" for ::1 at 2025-08-07 00:25:37 +0300
+Started GET "/lookbook-assets/js/lookbook.js?v=2.3.12" for ::1 at 2025-08-07 00:25:37 +0300
+Started GET "/lookbook" for ::1 at 2025-08-07 00:25:38 +0300
+Processing by Lookbook::ApplicationController#index as HTML
+  Rendering layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_blank_slate.html.erb (Duration: 2.5ms | Allocations: 2575)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application (Duration: 2.6ms | Allocations: 2658)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_user_styles.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb (Duration: 0.3ms | Allocations: 330)
+  Rendered layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb (Duration: 9.6ms | Allocations: 22459)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 22723)
+
+
+Started GET "/lookbook-assets/css/lookbook.css?v=2.3.12" for ::1 at 2025-08-07 00:25:38 +0300
+Started GET "/lookbook-assets/css/themes/indigo.css?v=2.3.12" for ::1 at 2025-08-07 00:25:38 +0300
+Started GET "/lookbook-assets/js/index.js?v=2.3.12" for ::1 at 2025-08-07 00:25:38 +0300
+Started GET "/lookbook-assets/js/lookbook.js?v=2.3.12" for ::1 at 2025-08-07 00:25:38 +0300
+Started GET "/lookbook" for ::1 at 2025-08-07 00:25:38 +0300
+Processing by Lookbook::ApplicationController#index as HTML
+  Rendering layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_blank_slate.html.erb (Duration: 3.4ms | Allocations: 2574)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application (Duration: 3.6ms | Allocations: 2657)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_user_styles.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb (Duration: 0.4ms | Allocations: 305)
+  Rendered layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb (Duration: 21.2ms | Allocations: 22446)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 22707)
+
+
+Started GET "/lookbook-assets/css/lookbook.css?v=2.3.12" for ::1 at 2025-08-07 00:25:38 +0300
+Started GET "/lookbook-assets/css/themes/indigo.css?v=2.3.12" for ::1 at 2025-08-07 00:25:38 +0300
+Started GET "/lookbook-assets/js/index.js?v=2.3.12" for ::1 at 2025-08-07 00:25:38 +0300
+Started GET "/lookbook-assets/js/lookbook.js?v=2.3.12" for ::1 at 2025-08-07 00:25:38 +0300
+Started GET "/lookbook" for ::1 at 2025-08-07 00:25:38 +0300
+Processing by Lookbook::ApplicationController#index as HTML
+  Rendering layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_blank_slate.html.erb (Duration: 3.2ms | Allocations: 2573)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application (Duration: 3.3ms | Allocations: 2656)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_user_styles.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb (Duration: 0.3ms | Allocations: 312)
+  Rendered layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb (Duration: 12.1ms | Allocations: 22439)
+Completed 200 OK in 12ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 22699)
+
+
+Started GET "/lookbook-assets/css/lookbook.css?v=2.3.12" for ::1 at 2025-08-07 00:25:38 +0300
+Started GET "/lookbook-assets/css/themes/indigo.css?v=2.3.12" for ::1 at 2025-08-07 00:25:38 +0300
+Started GET "/lookbook-assets/js/index.js?v=2.3.12" for ::1 at 2025-08-07 00:25:38 +0300
+Started GET "/lookbook-assets/js/lookbook.js?v=2.3.12" for ::1 at 2025-08-07 00:25:38 +0300
+Started GET "/lookbook" for ::1 at 2025-08-07 00:25:38 +0300
+Processing by Lookbook::ApplicationController#index as HTML
+  Rendering layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_blank_slate.html.erb (Duration: 2.4ms | Allocations: 2572)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application (Duration: 2.5ms | Allocations: 2655)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_user_styles.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb (Duration: 0.5ms | Allocations: 327)
+  Rendered layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb (Duration: 12.6ms | Allocations: 22453)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 22713)
+
+
+Started GET "/lookbook-assets/css/lookbook.css?v=2.3.12" for ::1 at 2025-08-07 00:25:38 +0300
+Started GET "/lookbook-assets/css/themes/indigo.css?v=2.3.12" for ::1 at 2025-08-07 00:25:38 +0300
+Started GET "/lookbook-assets/js/index.js?v=2.3.12" for ::1 at 2025-08-07 00:25:39 +0300
+Started GET "/lookbook-assets/js/lookbook.js?v=2.3.12" for ::1 at 2025-08-07 00:25:39 +0300
+Started GET "/lookbook" for ::1 at 2025-08-07 00:25:39 +0300
+Processing by Lookbook::ApplicationController#index as HTML
+  Rendering layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_blank_slate.html.erb (Duration: 2.8ms | Allocations: 2572)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application (Duration: 2.9ms | Allocations: 2655)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_user_styles.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb (Duration: 0.3ms | Allocations: 324)
+  Rendered layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb (Duration: 9.9ms | Allocations: 22450)
+Completed 200 OK in 10ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 22710)
+
+
+Started GET "/lookbook-assets/css/lookbook.css?v=2.3.12" for ::1 at 2025-08-07 00:25:39 +0300
+Started GET "/lookbook-assets/css/themes/indigo.css?v=2.3.12" for ::1 at 2025-08-07 00:25:39 +0300
+Started GET "/lookbook-assets/js/index.js?v=2.3.12" for ::1 at 2025-08-07 00:25:39 +0300
+Started GET "/lookbook-assets/js/lookbook.js?v=2.3.12" for ::1 at 2025-08-07 00:25:39 +0300
+Started GET "/lookbook" for ::1 at 2025-08-07 00:25:39 +0300
+Processing by Lookbook::ApplicationController#index as HTML
+  Rendering layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_blank_slate.html.erb (Duration: 2.3ms | Allocations: 2572)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application (Duration: 2.4ms | Allocations: 2655)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_user_styles.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb (Duration: 0.4ms | Allocations: 317)
+  Rendered layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb (Duration: 20.0ms | Allocations: 22443)
+Completed 200 OK in 20ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 22704)
+
+
+Started GET "/lookbook-assets/css/lookbook.css?v=2.3.12" for ::1 at 2025-08-07 00:25:39 +0300
+Started GET "/lookbook-assets/css/themes/indigo.css?v=2.3.12" for ::1 at 2025-08-07 00:25:39 +0300
+Started GET "/lookbook-assets/js/index.js?v=2.3.12" for ::1 at 2025-08-07 00:25:39 +0300
+Started GET "/lookbook-assets/js/lookbook.js?v=2.3.12" for ::1 at 2025-08-07 00:25:39 +0300
+Started GET "/lookbook" for ::1 at 2025-08-07 00:25:39 +0300
+Processing by Lookbook::ApplicationController#index as HTML
+  Rendering layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_blank_slate.html.erb (Duration: 3.8ms | Allocations: 2577)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/index.html.erb within layouts/lookbook/application (Duration: 3.9ms | Allocations: 2660)
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/lookbook/partials/_user_styles.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendering /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb
+  Rendered /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/skeleton.html.erb (Duration: 0.3ms | Allocations: 333)
+  Rendered layout /Users/andrey.cretsu/.local/share/mise/installs/ruby/3.4.5/lib/ruby/gems/3.4.0/gems/lookbook-2.3.12/app/views/layouts/lookbook/application.html.erb (Duration: 14.7ms | Allocations: 22476)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 22736)
+
+
+Started GET "/lookbook-assets/css/lookbook.css?v=2.3.12" for ::1 at 2025-08-07 00:25:39 +0300
+Started GET "/lookbook-assets/css/themes/indigo.css?v=2.3.12" for ::1 at 2025-08-07 00:25:39 +0300
+Started GET "/lookbook-assets/js/index.js?v=2.3.12" for ::1 at 2025-08-07 00:25:39 +0300
+Started GET "/lookbook-assets/js/lookbook.js?v=2.3.12" for ::1 at 2025-08-07 00:25:39 +0300
