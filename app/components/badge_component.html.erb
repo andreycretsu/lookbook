@@ -1,0 +1,13 @@
+<span class="<%= css_classes %>" <%= disabled_attributes.map { |k, v| "#{k}=\"#{v}\"" }.join(' ').html_safe %>>
+  <% if icon %>
+    <i class="<%= icon %> badge__icon"></i>
+  <% end %>
+  
+  <span class="badge__text"><%= text %></span>
+  
+  <% if removable %>
+    <button type="button" class="badge__remove" aria-label="Remove badge">
+      <i class="fa-times"></i>
+    </button>
+  <% end %>
+</span> 

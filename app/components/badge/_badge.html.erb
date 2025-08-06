@@ -1,0 +1,42 @@
+<%# Badge Component %>
+<%# 
+  Usage:
+  <%= render 'components/badge/badge', 
+      text: 'New', 
+      variant: 'primary', 
+      size: 'medium',
+      icon: 'fa-star' %>
+%>
+
+<% 
+  # Default values
+  text = local_assigns[:text] || 'Badge'
+  variant = local_assigns[:variant] || 'primary'
+  size = local_assigns[:size] || 'medium'
+  icon = local_assigns[:icon]
+  removable = local_assigns[:removable] || false
+  disabled = local_assigns[:disabled] || false
+  
+  # CSS classes
+  base_classes = 'badge'
+  variant_classes = "badge--#{variant}"
+  size_classes = "badge--#{size}"
+  state_classes = disabled ? 'badge--disabled' : ''
+  
+  # Combine all classes
+  css_classes = [base_classes, variant_classes, size_classes, state_classes].compact.join(' ')
+%>
+
+<span class="<%= css_classes %>" <%= 'aria-disabled="true"' if disabled %>>
+  <% if icon %>
+    <i class="<%= icon %> badge__icon"></i>
+  <% end %>
+  
+  <span class="badge__text"><%= text %></span>
+  
+  <% if removable %>
+    <button type="button" class="badge__remove" aria-label="Remove badge">
+      <i class="fa-times"></i>
+    </button>
+  <% end %>
+</span> 
