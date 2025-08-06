@@ -36,6 +36,9 @@ module LookbookDesignSystem
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
 
+    # Add Lookbook previews to autoload paths
+    config.autoload_paths << Rails.root.join("app", "views", "lookbook", "previews")
+
     # Don't generate system test files.
     config.generators.system_tests = nil
   end
