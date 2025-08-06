@@ -1,0 +1,8 @@
+[build]
+  command = "bundle exec rails assets:precompile"
+  publish = "public"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200 
