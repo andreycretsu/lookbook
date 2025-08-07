@@ -12,7 +12,7 @@ gem "bootsnap", ">= 1.4.4", require: false
 gem "sprockets-rails"
 
 # View components and documentation
-gem "view_component", "~> 3.0"
+gem "view_component", "~> 4.0"
 gem "lookbook", "~> 2.0"
 
 # JSON parsing and HTTP
