@@ -3,7 +3,7 @@ source "https://rubygems.org"
 ruby "3.4.5"
 
 # Core Rails gems
-gem "rails", "~> 7.1.0"
+gem "rails", "~> 8.0.2"
 gem "sqlite3", "~> 1.4"
 gem "puma", ">= 5.0"
 gem "bootsnap", ">= 1.4.4", require: false
