@@ -13,7 +13,7 @@ gem "sprockets-rails"
 
 # View components and documentation
 gem "view_component", "~> 3.0"
-gem "lookbook", "~> 2.0"
+gem "lookbook", "~> 2.3"
 
 # JSON parsing and HTTP
 gem "json"
